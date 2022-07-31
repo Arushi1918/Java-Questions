@@ -1,0 +1,46 @@
+Q1: (The Triangle class) Design a class named Triangle that extends               
+ GeometricObject. The class contains:                                           
+ Three double data fields named side1, side2, and side3 with default values 1.0 to denote three sides of the triangle.                            
+ ¦ A no-arg constructor that creates a default triangle.                        
+ ¦ A constructor that creates a triangle with the specified side1, side2, and  
+   side3.                                                                                                                                                   
+ ¦ The accessor methods for all three data fields.                            
+ ¦ A method named getArea() that returns the area of this triangle.             
+ ¦ A method named getPerimeter() that returns the perimeter of this triangle.   
+ ¦ A method named toString() that returns a string description for the triangle.
+                                                                                
+The toString() method is implemented as follows:                         
+                                                                                
+ return "Triangle: side1 = " + side1 + " side2 = " + side2 +                    
+ " side3 = " + side3;   
+
+Q2. (The Person, Student, Employee, Faculty, and Staff classes) 
+Design a class named Person and its two subclasses named Student and Employee.          
+Make Faculty and Staff subclasses of Employee. A person has a name,            
+address, phone number, and email address. A student has a class status         
+(freshman, sophomore, junior, or senior). Define the status as a constant. An  
+employee has an office, salary, and date hired. Use the MyDate class defined   
+in Programming Exercise 10.14 to create an object for date hired. A faculty    
+member has office hours and a rank. A staff member has a title. Override the   
+toString method in each class to display the class name and the person’s name
+
+Q3. (The MyInteger class) Design a class named MyInteger. The class contains:      
+                                                                             
+ ¦ An int data field named value that stores the int value represented by this  
+   object.                                                                      
+ ¦ A constructor that creates a MyInteger object for the specified int value.   
+ ¦ A getter method that returns the int value.                                  
+ ¦ The methods isEven(), isOdd(), and isPrime() that return true if the         
+   value in this object is even, odd, or prime, respectively.                   
+ ¦ The static methods isEven(int), isOdd(int), and isPrime(int) that            
+   return true if the specified value is even, odd, or prime, respectively.     
+ ¦ The static methods isEven(MyInteger), isOdd(MyInteger), and                  
+   isPrime(MyInteger) that return true if the specified value is even, odd,     
+   or prime, respectively.                                                      
+ ¦ The methods equals(int) and equals(MyInteger) that return true if            
+   the value in this object is equal to the specified value.                    
+ ¦ A static method parseInt(char[]) that converts an array of numeric           
+   characters to an int value.                                                  
+ ¦ A static method parseInt(String) that converts a string into an int          
+   value.
+ Write a client program that tests all methods in the class.       
