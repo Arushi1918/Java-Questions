@@ -1,0 +1,39 @@
+Q1. (Maximum element in ArrayList) Write the following method that returns the     
+maximum value in an ArrayList of integers. The method returns null if the      
+list is null or the list size is 0.                                            
+ public static Integer max(ArrayList<Integer> list)                             
+ Write a test program that prompts the user to enter a sequence of numbers      
+ ending with 0, and invokes this method to return the largest number in the     
+ input. 
+
+Q2. (Use ArrayList) Write a program that creates an ArrayList and adds a Loan    
+object, a Date object, a string, and a Circle object to the list, and use a    
+ loop to display all the elements in the list by invoking the object’s toString() method.
+
+Q3. (Implement MyStack using inheritance) In Listing 11.10, MyStack is implemented 
+using composition. Define a new stack class that extends ArrayList.            
+ Write a test program that prompts the user to enter five strings and displays them in       
+ reverse order.    
+
+Q4. (Sort ArrayList) Write the following method that sorts an ArrayList of numbers:                                                                              *
+	public static void sort(ArrayList<Integer> list)                               
+ Write a test program that prompts the user to enter 5 numbers, stores them in  
+ an array list, and displays them in increasing order. 
+
+Q5.  (Remove duplicates) Write a method that removes the duplicate elements from    
+ an array list of integers using the following header:                          
+                                                                                
+	 public static void removeDuplicate(ArrayList<Integer> list)                    
+                                                                                
+ Write a test program that prompts the user to enter 10 integers to a list and  
+ displays the distinct integers separated by exactly one space.   
+
+Q6. (Combine two lists) Write a method that returns the union of two array lists   
+ of integers using the following header:                                        
+                                                                                
+ public static ArrayList<Integer> union(ArrayList<Integer> list1, ArrayList<Integer> list2)                            
+                                                                                
+ For example, the union of two array lists {2, 3, 1, 5} and {3, 4, 6} is        
+ {2, 3, 1, 5, 3, 4, 6}. Write a test program that prompts the user to enter two 
+ lists, each with five integers, and displays their union. The numbers are      
+ separated by exactly one space in the output.    
